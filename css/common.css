@@ -95,7 +95,8 @@ transition:all .5s ease;display:flex;align-items:center;}
 .datalist-a-info>.act img{width:15px;height:15px;margin-right:0.3rem;}
 /*操作入口*/
 .mod-entry{display:flex;background:#fafafa;border-top:solid .05rem #ededed}
-.mod-entry>a{flex:1;text-align:center;padding:0.3rem 0;font-size:12px;display:flex;flex-direction:column;color:#888;}
+.mod-entry>a{flex:1;text-align:center;height:2.5rem;padding:0.3rem 0;font-size:12px;
+display:flex;flex-direction:column;color:#888;justify-content: center;}
 .mod-entry>a.active{color:#333;}
 .mod-entry>a .iconfont{display:inline-block;margin-bottom:0.1rem;font-size:26px;color:#888;}
 .mod-entry>a.active .iconfont{color:#f79d18;}
