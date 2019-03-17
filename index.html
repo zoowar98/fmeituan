@@ -221,12 +221,11 @@
 					<a href="" title="" class="my"><i class="iconfont icon-my"></i>我的</a>
 				</seciton><!--操作入口-->
 			</article><!--main-->
-			<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 			<script type="text/javascript">
-				$(function(){
-					$("#searchTxt").focus(function(){
-						$(".mod-search-location").addClass("on");
-					});					
+				var searchTxt=document.querySelector("#searchTxt");
+				searchTxt.addEventListener("focus",function(){
+					console.log(document.querySelector(".mod-search-location"));
+					document.querySelector(".mod-search-location").classList.add("on");
 				})
 			</script>
 	</body>
